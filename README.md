@@ -35,7 +35,19 @@ _I'd love for you to make the most of this project - it's all about learning, he
 3. **Install Required Dependencies**
 
    ```bash
-   npm i
+  Install Node Version Manager (NVM):
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+  - Installs Node Version Manager (NVM) for managing Node.js versions.
+
+    Install Node.js version 22:
+     nvm install 22
+  - Installs Node.js version 22 using NVM.
+
+  Verify Node.js and npm Installation:
+    node -v
+    npm -v
+- Checks installed versions of Node.js and npm.
+    npm i
    ```
 
 4. **Set up your MongoDB Database**
